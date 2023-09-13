@@ -1,0 +1,23 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.visited{
+    background-color: bisque;
+}
+
+.non-visited{
+    background-color: cornsilk;
+}
+
+
+.flag-container img{
+    width: 100px;
+}
+ 
+.flag-container{
+    display: flex;
+    gap: 20px;
+}
